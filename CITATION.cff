@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use or build upon this work, please cite it using the metadata below."
+
+title: "Portable Intelligence Runtime Pieces and Units: From Runtime Intelligence to Relay Localization and Collective Computational Growth"
+
+type: software
+
+authors:
+  - family-names: "Tan"
+    given-names: "Sizhe"
+
+version: "1.0.0"
+
+date-released: "2026-09-16"
+
+url: "https://github.com/sizhet/Portable-Intelligence-Runtime-Pieces-and-Units"
+
+repository-code: "https://github.com/sizhet/Portable-Intelligence-Runtime-Pieces-and-Units"
+
+license: "Apache-2.0"
+
+doi: 10.5281/zenodo.22805050
+
+abstract: >-
+  Portable Intelligence Runtime Pieces and Units (PIRP/PIRU) develops a
+  structural framework for intelligence that can be bounded, carried,
+  published, received, localized, continued, composed, validated, relayed,
+  and grown across humans, AIs, tools, runtimes, organizations, domains,
+  and generations. PIRP represents discovery-oriented Portable Intelligence
+  whose useful runtime structure may precede complete computational
+  classification, while PIRU represents a more formalized, bounded, typed,
+  and reusable engineering unit. The framework extends Portable Intelligence
+  into Open PIRPs for unresolved intelligence, publishing as intelligence
+  transfer, Relay Context, Knowledge and Relay CallingGraphs, Relay
+  Localization, the PIRP Dispatch Plane, Collective Learning, and
+  Computational Growth. It further proposes that the history of how
+  intelligence is received, transformed, continued, and grown can itself
+  become reusable structural intelligence.
+
+keywords:
+  - "Portable Intelligence"
+  - "PIRP"
+  - "PIRU"
+  - "Portable Intelligence Runtime Piece"
+  - "Portable Intelligence Runtime Unit"
+  - "Runtime Intelligence"
+  - "Pre-Categorical Intelligence"
+  - "Open PIRP"
+  - "Unresolved Intelligence"
+  - "Relay"
+  - "Relay Context"
+  - "Relay Localization"
+  - "Structural Localization"
+  - "Computational Growth Localization"
+  - "PIRP Dispatch Plane"
+  - "Knowledge CallingGraph"
+  - "Relay CallingGraph"
+  - "Collective Intelligence CallingGraph"
+  - "Collective Learning"
+  - "Computational Growth"
+  - "Structural Intelligence"
+  - "Human-AI Collaboration"
+  - "Open-Ended Growth"
