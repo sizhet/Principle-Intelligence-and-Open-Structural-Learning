@@ -1,63 +1,91 @@
 cff-version: 1.2.0
-message: "If you use or build upon this work, please cite it using the metadata below."
 
-title: "Portable Intelligence Runtime Pieces and Units: From Runtime Intelligence to Relay Localization and Collective Computational Growth"
+message: >-
+  If you use, discuss, extend, or build upon this research,
+  please cite this repository and its DOI release.
+
+title: >-
+  Principle Intelligence and Open Structural Learning:
+  From Sparse Differential Evidence to Open-LHS Principles,
+  Two-Way Validation, and Portable Intelligence
 
 type: software
 
+version: 1.0.0
+
+date-released: 2026-09-17
+
 authors:
-  - family-names: "Tan"
-    given-names: "Sizhe"
+  - family-names: Tan
+    given-names: Sizhe
 
-version: "1.0.0"
+  - family-names: GPT-Obot
+    given-names: OpenAI
 
-date-released: "2026-09-16"
+repository-code: >-
+  https://github.com/sizhet/Principle-Intelligence-and-Open-Structural-Learning
 
-url: "https://github.com/sizhet/Portable-Intelligence-Runtime-Pieces-and-Units"
+url: >-
+  https://github.com/sizhet/Principle-Intelligence-and-Open-Structural-Learning
 
-repository-code: "https://github.com/sizhet/Portable-Intelligence-Runtime-Pieces-and-Units"
-
-license: "Apache-2.0"
-
-doi: 10.5281/zenodo.22805050
+license: Apache-2.0
 
 abstract: >-
-  Portable Intelligence Runtime Pieces and Units (PIRP/PIRU) develops a
-  structural framework for intelligence that can be bounded, carried,
-  published, received, localized, continued, composed, validated, relayed,
-  and grown across humans, AIs, tools, runtimes, organizations, domains,
-  and generations. PIRP represents discovery-oriented Portable Intelligence
-  whose useful runtime structure may precede complete computational
-  classification, while PIRU represents a more formalized, bounded, typed,
-  and reusable engineering unit. The framework extends Portable Intelligence
-  into Open PIRPs for unresolved intelligence, publishing as intelligence
-  transfer, Relay Context, Knowledge and Relay CallingGraphs, Relay
-  Localization, the PIRP Dispatch Plane, Collective Learning, and
-  Computational Growth. It further proposes that the history of how
-  intelligence is received, transformed, continued, and grown can itself
-  become reusable structural intelligence.
+  Principle Intelligence and Open Structural Learning develops a structural
+  learning framework for extracting reusable Principles from sparse and
+  differential evidence, validating them through supporting evidence,
+  counter-evidence, and Two-Way CCC, and evolving them as evidence-bound
+  Knowledge Roots. The framework introduces the Open-LHS Principle, in which
+  the left-hand side of a Principle is not restricted to a permanently
+  predefined symbolic vocabulary. Existing, retrieved, composed, or
+  runtime-generated intelligence structures—including observations,
+  differences, metrics, trajectories, CCCs, Principles, counter-evidence,
+  triggers, policies, PIRPs, PIRUs, and other typed structural objects—may
+  participate in Principle formation and evaluation. When required structure
+  is missing, runtime structural generation may search, retrieve, compose,
+  generate, unfold, or delegate the creation of a compatible structure and
+  bind it into active reasoning. The repository further connects Principle
+  Intelligence with Context-Condition-Consequence structures, Two-Way
+  validation, Counter-Evidence Delta Intelligence, Universal Typing and
+  Naming, Portable Intelligence Runtime Pieces and Units, Collective
+  Learning, and Open-Ended Structural Growth. The central research
+  proposition is that reusable intelligence structures can sometimes be
+  extracted from experience, preserved with evidence and provenance,
+  revised through counter-evidence, externalized for portable reuse, and
+  incorporated into an extensible structural vocabulary for future
+  intelligence.
 
 keywords:
-  - "Portable Intelligence"
-  - "PIRP"
-  - "PIRU"
-  - "Portable Intelligence Runtime Piece"
-  - "Portable Intelligence Runtime Unit"
-  - "Runtime Intelligence"
-  - "Pre-Categorical Intelligence"
-  - "Open PIRP"
-  - "Unresolved Intelligence"
-  - "Relay"
-  - "Relay Context"
-  - "Relay Localization"
-  - "Structural Localization"
-  - "Computational Growth Localization"
-  - "PIRP Dispatch Plane"
-  - "Knowledge CallingGraph"
-  - "Relay CallingGraph"
-  - "Collective Intelligence CallingGraph"
-  - "Collective Learning"
-  - "Computational Growth"
-  - "Structural Intelligence"
-  - "Human-AI Collaboration"
-  - "Open-Ended Growth"
+  - Principle Intelligence
+  - Open Structural Learning
+  - Structural Intelligence
+  - Differential Intelligence
+  - Sparse Evidence
+  - Differential Evidence
+  - Structural Residual
+  - Principle Extraction
+  - Open-LHS
+  - Runtime Structural Generation
+  - Runtime Structural Extension
+  - Knowledge Root
+  - Knowledge Root System
+  - Context-Condition-Consequence
+  - CCC
+  - Two-Way CCC
+  - Counter-Evidence
+  - Counter-Evidence Delta Intelligence
+  - Structural Validation
+  - Structural Learning
+  - Structural Growth
+  - Open-Ended Structural Growth
+  - Universal Typing and Naming
+  - UTN
+  - Portable Intelligence
+  - PIRP
+  - PIRU
+  - Collective Learning
+  - Collective Structural Learning
+  - Structural Compilation
+  - Behavioral Geometry
+  - Structural Recursive Self-Improvement
+  - Artificial Intelligence
