@@ -2640,7 +2640,7 @@ This project is released under the **Apache License 2.0**.
 
 See:
 
-`LICENSE`
+`LICENSE.txt`
 
 for details.
 
@@ -2660,13 +2660,22 @@ and:
 .zenodo.json
 ```
 
-for DOI-backed archival release.
+DOI: TBD
 
 ---
 
 ## Authors
 
 **Sizhe Tan & GPT-Obot**
+
+---
+
+## 📚 DBM-SI Series Navigation
+
+See:\
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
+
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Structural-Intelligence-Dictionary-(v2).md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Structural-Intelligence-Dictionary-(v2).md)
 
 ---
 
