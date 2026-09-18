@@ -665,6 +665,13 @@ Principle Intelligence seeks mechanisms for recognizing and exploiting this stru
 
 ---
 
+![Fig-002 — Rules to Principles Paradigm Shift](../figures/Fig-002-Rules-to-Principles-Paradigm-Shift.png)
+
+**Fig-002 — Rules to Principles Paradigm Shift.**  
+The transition from predefined rules and stored knowledge toward evidence-driven formation, validation, and evolution of reusable structural Principles.
+
+---
+
 # 14. Principle Intelligence Is Not a Return to Classical Symbolic AI
 
 It would be misleading to describe Principle Intelligence simply as a revival of symbolic AI.

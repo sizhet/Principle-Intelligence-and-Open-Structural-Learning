@@ -1687,6 +1687,11 @@ Evidence continuously folds back into the structural system.
 
 ![Fig-001 — Principle Intelligence Grand Map](figures/Fig-001-Principle-Intelligence-Grand-Map.png)
 
+**Fig-001 — Principle Intelligence Grand Map.**  
+The overall architecture of Principle Intelligence and Open Structural Learning, from differential evidence and Principle formation to Open-LHS, portable intelligence, Collective Learning, and structural growth.
+
+---
+
 The Grand Map summarizes the repository's central transition:
 
 ```text

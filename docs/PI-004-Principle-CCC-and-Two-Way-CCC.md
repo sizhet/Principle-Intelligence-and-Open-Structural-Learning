@@ -557,6 +557,13 @@ These are reverse-search questions.
 
 ---
 
+![Fig-005 — Principle, CCC, Two-Way CCC and Counter-Evidence](../figures/Fig-005-Principle-CCC-Two-Way-CCC-and-Counter-Evidence.png)
+
+**Fig-005 — Principle, CCC, Two-Way CCC, and Counter-Evidence.**  
+A reusable Principle is bound to context as a CCC, exposed to runtime reality, and evaluated through forward consequence, reverse structural search, supporting evidence, and counter-evidence.
+
+---
+
 # 14. Two-Way CCC
 
 Two-Way CCC extends the structure:

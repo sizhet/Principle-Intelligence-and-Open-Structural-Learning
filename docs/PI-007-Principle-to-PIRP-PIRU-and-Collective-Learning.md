@@ -661,6 +661,13 @@ Portable intelligence must remain criticizable.
 
 ---
 
+![Fig-007 — Principle to PIRP/PIRU and Collective Learning](../figures/Fig-007-Principle-to-PIRP-PIRU-Collective-Learning.png)
+
+**Fig-007 — Principle to PIRP/PIRU and Collective Learning.**  
+Validated structural intelligence can be externalized as portable PIRP/PIRU structures, discovered and rebound by other compatible runtimes, challenged by new evidence, and revised through Fold Back into Collective Structural Learning.
+
+---
+
 # 20. UTN and Portable Intelligence
 
 A remote runtime first needs to know:

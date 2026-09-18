@@ -97,6 +97,13 @@ answers, searches, and actions possible.
 
 ---
 
+![Fig-007 — Principle to PIRP/PIRU and Collective Learning](../figures/Fig-007-Principle-to-PIRP-PIRU-Collective-Learning.png)
+
+**Fig-007 — Principle to PIRP/PIRU and Collective Learning.**  
+Validated structural intelligence can be externalized as portable PIRP/PIRU structures, discovered and rebound by other compatible runtimes, challenged by new evidence, and revised through Fold Back into Collective Structural Learning.
+
+---
+
 # 1. What Does It Mean for Intelligence to Grow?
 
 Suppose a system solves a planning problem today with accuracy:

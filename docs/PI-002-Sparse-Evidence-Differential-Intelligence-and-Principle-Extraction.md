@@ -194,6 +194,13 @@ The point is narrower:
 
 ---
 
+![Fig-003 — Sparse Evidence to Principle](../figures/Fig-003-Sparse-Evidence-to-Principle.png)
+
+**Fig-003 — Sparse Evidence to Principle.**  
+Sparse observations can contain structurally important differences. Differential extraction, residual analysis, and localization can elevate critical evidence into a Candidate Principle.
+
+---
+
 # 4. Difference as an Intelligence Primitive
 
 A raw observation tells the system what occurred.

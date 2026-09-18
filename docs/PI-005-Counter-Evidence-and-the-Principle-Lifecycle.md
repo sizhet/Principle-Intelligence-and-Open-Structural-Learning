@@ -920,6 +920,13 @@ It means:
 
 ---
 
+![Fig-006 — Principle Knowledge Root Lifecycle](../figures/Fig-006-Principle-Knowledge-Root-Lifecycle.png)
+
+**Fig-006 — Principle Knowledge Root Lifecycle.**  
+A Principle is an evidence-bound and evolvable Knowledge Root rather than permanent truth. Supporting evidence, counter-evidence, new contexts, and structural Delta may promote, specialize, split, merge, weaken, replace, archive, or reopen it.
+
+---
+
 # 27. Revalidated
 
 After challenge, the Principle may survive unchanged.
