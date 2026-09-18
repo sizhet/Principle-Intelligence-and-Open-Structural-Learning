@@ -1940,3 +1940,4 @@ New Possibilities for Future Intelligence
 **Principle Intelligence and Open Structural Learning**
 
 *From Sparse Differential Evidence to Open-LHS Principles, Two-Way Validation, and Portable Intelligence*
+
