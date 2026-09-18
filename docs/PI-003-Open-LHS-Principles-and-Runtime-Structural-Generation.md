@@ -55,7 +55,7 @@ The deeper implication is that reasoning no longer needs to operate only inside 
 
 If a required structure is missing, the system may:
 
-```text id="1f5l7a"
+```text
 Search
 Retrieve
 Generate
@@ -88,13 +88,13 @@ This transforms Principle evaluation from closed-space predicate matching into *
 
 A traditional rule can be represented as:
 
-```text id="oxv4dq"
+```text
 A ∧ B ∧ C → D
 ```
 
 The system evaluates whether:
 
-```text id="zytqbt"
+```text
 A = true
 B = true
 C = true
@@ -120,7 +120,7 @@ A system can be dynamically evaluated while still being structurally closed.
 
 Consider:
 
-```text id="gj8h6u"
+```text
 temperature = ?
 pressure = ?
 door_state = ?
@@ -130,7 +130,7 @@ The values may be unknown until runtime.
 
 But the dimensions themselves are predefined:
 
-```text id="j95vkt"
+```text
 temperature
 pressure
 door_state
@@ -144,7 +144,7 @@ Open Structural Learning asks a different question:
 
 For example:
 
-```text id="czngwu"
+```text
 new behavioral asymmetry
 
 new trajectory pattern
@@ -174,7 +174,7 @@ It becomes:
 
 A closed-vocabulary reasoning system can be simplified as:
 
-```text id="13vmj4"
+```text
 Predefined Vocabulary
         ↓
 Facts
@@ -186,7 +186,7 @@ Inference
 
 An open structural system aims toward:
 
-```text id="mkq5h4"
+```text
 Existing Vocabulary
         ↓
 Experience
@@ -216,7 +216,7 @@ We define the central design principle of this document as follows:
 
 Conceptually:
 
-```text id="1w8nd6"
+```text
 Principle LHS
 │
 ├── Observation
@@ -249,7 +249,7 @@ The architecture should not assume that every future structural type is known to
 
 In a conventional rule:
 
-```text id="r1zx8v"
+```text
 LHS → RHS
 ```
 
@@ -263,7 +263,7 @@ The LHS is better understood as:
 
 Thus:
 
-```text id="82i1yw"
+```text
 LHS
  ≠
 fixed list of predicates
@@ -271,7 +271,7 @@ fixed list of predicates
 
 Instead:
 
-```text id="tubf8x"
+```text
 LHS
  =
 Open Structural Evidence Space
@@ -287,7 +287,7 @@ Suppose a system is evaluating a candidate Principle concerning safe reachabilit
 
 Its evidence space might contain:
 
-```text id="bf2e2r"
+```text
 Trajectory T1
 
 CCC C1
@@ -330,7 +330,7 @@ An Open-LHS system immediately encounters a new problem.
 
 Suppose a Principle requires evidence of type:
 
-```text id="pr2spk"
+```text 
 DirectionalReachability
 ```
 
@@ -338,13 +338,13 @@ but no such structure currently exists.
 
 A closed system may return:
 
-```text id="e38rqf"
+```text
 UNKNOWN
 ```
 
 or:
 
-```text id="wxz43p"
+```text
 TYPE NOT FOUND
 ```
 
@@ -352,7 +352,7 @@ An Open-LHS system has additional options.
 
 It can ask:
 
-```text id="zc1cll"
+```text
 Can the missing structure be:
 
 searched?
@@ -388,7 +388,7 @@ We therefore define:
 
 Conceptually:
 
-```text id="as9z9a"
+```text
 Principle Evaluation
         ↓
 Required Structure Missing?
@@ -426,7 +426,7 @@ This is stronger than ordinary inference.
 
 Ordinary inference may derive:
 
-```text id="7e4lbd"
+```text
 A + B → C
 ```
 
@@ -434,7 +434,7 @@ where C belongs to the existing language.
 
 Open structural reasoning may instead encounter:
 
-```text id="j5jrd8"
+```text
 A + B
    ↓
 Existing vocabulary insufficient
@@ -456,13 +456,13 @@ The reasoning process has changed its own usable structural vocabulary.
 
 Suppose an agent knows:
 
-```text id="7zy63e"
+```text
 A → B succeeds
 ```
 
 and:
 
-```text id="73y16d"
+```text
 B → A fails
 ```
 
@@ -470,19 +470,19 @@ The existing system has no explicit concept of directional reachability.
 
 Differential Intelligence detects:
 
-```text id="53slfm"
+```text
 A → B ≠ B → A
 ```
 
 The system generates:
 
-```text id="1rrvka"
+```text
 DirectionalReachabilityRelation
 ```
 
 This newly generated structure can then enter the LHS:
 
-```text id="q3r0c7"
+```text
 DirectionalReachabilityRelation
         +
 Context C
@@ -505,7 +505,7 @@ A new structure should have sufficient grounding.
 
 At minimum, a runtime-generated structure should seek to preserve:
 
-```text id="t0nyx2"
+```text
 Identity
 Type
 Context
@@ -532,7 +532,7 @@ A runtime-generated object becomes reusable only when it can be identified.
 
 Conceptually:
 
-```text id="uzhztw"
+```text
 New Structure
       ↓
 Identity
@@ -570,7 +570,7 @@ A typing and naming layer can help.
 
 Conceptually:
 
-```text id="3vlwj6"
+```text
 Unknown Structure X
        ↓
 UTN Identity
@@ -610,7 +610,7 @@ Thus:
 
 Traditional knowledge engineering often follows:
 
-```text id="n2yr6f"
+```text
 Define Ontology
       ↓
 Define Relations
@@ -622,7 +622,7 @@ Reason
 
 Open Structural Learning can also support:
 
-```text id="h9eg5m"
+```text
 Observe
    ↓
 Detect Difference
@@ -650,7 +650,7 @@ A practical architecture need not choose between completely fixed and completely
 
 A useful model is:
 
-```text id="vxhfda"
+```text
 CORE VOCABULARY
       +
 STRUCTURAL DELTA
@@ -689,7 +689,7 @@ A CCC can participate directly in a Principle LHS.
 
 For example:
 
-```text id="dyvz5m"
+```text
 CCC-A:
 Context X
   ↓
@@ -700,7 +700,7 @@ Consequence Z
 
 A Principle may use this CCC as evidence:
 
-```text id="k6ej97"
+```text
 CCC-A
    +
 Trajectory T
@@ -724,7 +724,7 @@ Suppose the Principle Engine identifies a missing contextual relation.
 
 It can request:
 
-```text id="23lrle"
+```text
 Generate CCC for:
 Context X
 Condition Y
@@ -733,7 +733,7 @@ Observed Outcome Z
 
 The resulting CCC can immediately enter the LHS:
 
-```text id="h2fn6h"
+```text
 Runtime CCC
      ↓
 LHS Binding
@@ -751,7 +751,7 @@ A Principle may itself participate in another Principle.
 
 For example:
 
-```text id="0cm3rl"
+```text
 Principle P1:
 Reachability may be directional.
 
@@ -761,7 +761,7 @@ Energy cost increases under load.
 
 A higher-level Principle might be formed from:
 
-```text id="n9ofde"
+```text
 P1
 +
 P2
@@ -775,7 +775,7 @@ energy-conditioned.
 
 Thus:
 
-```text id="x9ohhm"
+```text
 Principle
    ↓
 becomes evidence structure
@@ -791,7 +791,7 @@ This enables hierarchical structural growth.
 
 The resulting architecture can become recursive:
 
-```text id="trmm5v"
+```text
 Evidence
    ↓
 Principle P1
@@ -823,7 +823,7 @@ The structural ancestry remains available.
 
 As Principles depend on other Principles, a graph naturally emerges.
 
-```text id="r4mbfa"
+```text
 Evidence E1 ──→ P1 ──┐
                      │
 Evidence E2 ──→ P2 ──┼──→ P4
@@ -849,7 +849,7 @@ It can participate directly in Principle evaluation.
 
 For example:
 
-```text id="8twn9f"
+```text
 Supporting Evidence E+
         +
 Counter-Evidence E-
@@ -867,7 +867,7 @@ This allows Principles to represent contested or conditional structures rather t
 
 A mature system should be able to distinguish:
 
-```text id="uvex8z"
+```text
 EvidenceFor(P)
 EvidenceAgainst(P)
 EvidenceAboutScope(P)
@@ -878,7 +878,7 @@ These may themselves be typed structural objects.
 
 Then:
 
-```text id="y9p2qe"
+```text
 Principle P
      │
      ├── Evidence+
@@ -897,7 +897,7 @@ A trajectory can also be treated as a first-class structural object.
 
 For example:
 
-```text id="v53qga"
+```text
 Trajectory T1
 Trajectory T2
 ```
@@ -906,7 +906,7 @@ may differ at one branching point.
 
 The Principle LHS can contain:
 
-```text id="4gycn1"
+```text
 TrajectoryDifference(T1,T2)
       +
 Policy P
@@ -928,7 +928,7 @@ Software and agent behavior can be represented through Calling Graph structures.
 
 Suppose:
 
-```text id="2jq69v"
+```text
 CallingGraph G1 succeeds.
 
 CallingGraph G2 fails.
@@ -936,13 +936,13 @@ CallingGraph G2 fails.
 
 The Graph Minus operation identifies:
 
-```text id="gk6gmk"
+```text
 Delta G
 ```
 
 That structural delta can participate directly in a Principle:
 
-```text id="mbp7np"
+```text
 Graph Delta
    +
 Runtime Context
@@ -964,7 +964,7 @@ Policy is another important structural object.
 
 Consider:
 
-```text id="a6obgd"
+```text
 Action A is physically possible.
 
 Policy P prohibits A.
@@ -972,13 +972,13 @@ Policy P prohibits A.
 
 A purely physical reachability model may say:
 
-```text id="qmt3bq"
+```text
 reachable = true
 ```
 
 But the Principle LHS may include:
 
-```text id="f5nnjc"
+```text
 Physical Reachability
        +
 Policy P
@@ -998,7 +998,7 @@ Different tasks may require different metrics.
 
 A Principle may combine:
 
-```text id="ivpwsn"
+```text
 Geometric Distance
 Energy Cost
 Risk Metric
@@ -1008,13 +1008,13 @@ Reversibility
 
 Instead of assuming one canonical distance:
 
-```text id="2y2drx"
+```text
 d(A,B)
 ```
 
 the Principle may evaluate a structured set:
 
-```text id="s24w09"
+```text
 {
   d_geometry,
   d_behavior,
@@ -1032,7 +1032,7 @@ The choice of metric itself can become part of Principle reasoning.
 
 A world model can supply:
 
-```text id="unq4if"
+```text
 Predicted State
 Predicted Trajectory
 Latent Relation
@@ -1043,7 +1043,7 @@ These outputs can participate as evidence.
 
 For example:
 
-```text id="a4ll7c"
+```text
 World-Model Prediction
         +
 Observed Outcome
@@ -1067,7 +1067,7 @@ A model output entering the LHS should not automatically dominate other evidence
 
 Conceptually:
 
-```text id="a6a7em"
+```text
 Model Prediction
       =
 Evidence Object
@@ -1075,7 +1075,7 @@ Evidence Object
 
 not:
 
-```text id="54kpsd"
+```text
 Model Prediction
       =
 Truth
@@ -1093,7 +1093,7 @@ Portable Intelligence Runtime Pieces can participate directly in Principle evalu
 
 A PIRP may carry:
 
-```text id="4k5crs"
+```text
 Metric
 Constraint
 Trigger
@@ -1105,7 +1105,7 @@ Search Strategy
 
 A Principle can bind one or more PIRPs:
 
-```text id="z76ujc"
+```text
 PIRP-A
   +
 PIRP-B
@@ -1125,7 +1125,7 @@ PIRUs create an even more important possibility.
 
 A PIRU may contain not only static structure but:
 
-```text id="b22n1i"
+```text
 Identity
 Interface
 Behavior
@@ -1139,7 +1139,7 @@ Therefore a PIRU entering the LHS may actively compute.
 
 For example:
 
-```text id="8z3g45"
+```text
 PIRU-A
    ↓
 Generate Trajectory T
@@ -1163,14 +1163,14 @@ This is a major conceptual shift.
 
 Traditional LHS objects are often passive facts:
 
-```text id="6m0ifb"
+```text
 A = true
 B = false
 ```
 
 Open-LHS objects may be active:
 
-```text id="abmnyr"
+```text
 PIRU-A generates evidence
 
 PIRU-B evaluates structure
@@ -1190,7 +1190,7 @@ This is one of the strongest implications of Open-LHS Principle Intelligence.
 
 Consider:
 
-```text id="2euk7c"
+```text
 Principle P requires:
     trajectory evidence
     policy evidence
@@ -1201,7 +1201,7 @@ Only trajectory evidence currently exists.
 
 The LHS can initiate:
 
-```text id="vyzgdt"
+```text
 Missing Policy Evidence
         ↓
 Search PIRP Registry
@@ -1213,7 +1213,7 @@ Generate Policy Evaluation
 
 and:
 
-```text id="m7sczb"
+```text
 Missing Counter-Evidence
         ↓
 Delegate Search
@@ -1223,7 +1223,7 @@ Receive Evidence Object
 
 Then:
 
-```text id="e74qle"
+```text
 Trajectory
 +
 Policy Evaluation
@@ -1245,13 +1245,13 @@ This suggests the concept of **LHS Unfolding**.
 
 Start with an incomplete structural requirement:
 
-```text id="iqxfz4"
+```text
 LHS₀
 ```
 
 Then:
 
-```text id="lztqzy"
+```text
 LHS₀
   ↓
 Identify Missing Structure
@@ -1269,7 +1269,7 @@ LHS₂
 
 until:
 
-```text id="3gk3t0"
+```text
 Sufficient Evidence Structure
         ↓
 Principle Evaluation
@@ -1285,7 +1285,7 @@ An important design choice is that Principle evaluation need not wait for perfec
 
 The system may classify the LHS as:
 
-```text id="ilshhw"
+```text
 Sufficient
 Insufficient
 Conflicted
@@ -1295,7 +1295,7 @@ Open
 
 For example:
 
-```text id="a5ghor"
+```text
 Evidence+ = strong
 Evidence- = unknown
 Context = partial
@@ -1303,7 +1303,7 @@ Context = partial
 
 may yield:
 
-```text id="l55l17"
+```text
 Candidate Principle:
 provisional
 ```
@@ -1340,7 +1340,7 @@ A system may not know how to generate a required structure locally.
 
 Instead:
 
-```text id="lnhs6s"
+```text
 Missing Structure X
        ↓
 Delegation
@@ -1366,7 +1366,7 @@ It makes Principle Intelligence naturally compatible with multi-agent systems.
 
 If Agent A can generate a structure needed by Agent B:
 
-```text id="yug1ca"
+```text
 Agent B
   ↓
 Needs X
@@ -1404,7 +1404,7 @@ Agent A constructs it.
 
 The sequence becomes:
 
-```text id="75sw41"
+```text
 Need
   ↓
 Delegated Generation
@@ -1432,7 +1432,7 @@ This is a major potential advantage of structural externalization.
 
 A closed monolithic model often incorporates new intelligence through:
 
-```text id="uxt50q"
+```text
 New Data
    ↓
 Training / Fine-Tuning
@@ -1442,7 +1442,7 @@ New Model Version
 
 Open Structural Learning may also support:
 
-```text id="y3a07f"
+```text
 New Experience
     ↓
 New Principle / PIRU
@@ -1472,7 +1472,7 @@ New intelligence does not need to be known when the receiving agent was trained.
 
 It needs to be:
 
-```text id="8vvy92"
+```text
 Identifiable
 Typed
 Contextualized
@@ -1493,7 +1493,7 @@ Open-LHS therefore requires compatibility checks.
 
 For example:
 
-```text id="l3v41k"
+```text
 Structure X
     ↓
 Type Compatible?
@@ -1506,7 +1506,7 @@ Interface Compatible?
 
 Only then:
 
-```text id="o0tnl3"
+```text
 Bind into LHS
 ```
 
@@ -1520,7 +1520,7 @@ A new structural object should ideally expose an Evidence API.
 
 Conceptually:
 
-```text id="0t9ck8"
+```text
 getIdentity()
 
 getType()
@@ -1556,7 +1556,7 @@ Active objects such as PIRUs may additionally expose behavior.
 
 For example:
 
-```text id="wr51cl"
+```text
 evaluate()
 
 search()
@@ -1574,13 +1574,13 @@ delegate()
 
 Thus a Principle LHS may bind both:
 
-```text id="41vswe"
+```text
 Declarative Structure
 ```
 
 and:
 
-```text id="ybd89q"
+```text
 Executable Structure
 ```
 
@@ -1594,7 +1594,7 @@ Because runtime-generated intelligence may execute actions or generate consequen
 
 A structural object may expose:
 
-```text id="vcd5jc"
+```text
 allowedContexts
 
 forbiddenActions
@@ -1616,7 +1616,7 @@ This allows Open Structural Learning to remain compatible with action governance
 
 A Principle should distinguish among:
 
-```text id="qxunua"
+```text
 direct observation
 
 model prediction
@@ -1648,7 +1648,7 @@ They also introduce risks.
 
 A generated structure may be:
 
-```text id="oj8xre"
+```text
 incorrect
 
 mis-typed
@@ -1676,7 +1676,7 @@ Open does not mean trusted by default.
 
 Recursive Principle formation can create cycles:
 
-```text id="33d1hc"
+```text
 P1 depends on P2
 
 P2 depends on P3
@@ -1698,7 +1698,7 @@ Therefore dependency graphs and provenance are important.
 
 Suppose:
 
-```text id="yrzg6k"
+```text
 P1 generated P2
 
 P2 is then used as evidence for P1
@@ -1710,13 +1710,13 @@ Otherwise the system can manufacture confidence through recursion.
 
 A robust Principle architecture should distinguish:
 
-```text id="ov5t3a"
+```text
 derived evidence
 ```
 
 from:
 
-```text id="zwtqxe"
+```text
 independent evidence
 ```
 
@@ -1730,7 +1730,7 @@ New structures may initially enter a sandbox state.
 
 For example:
 
-```text id="nx9h4j"
+```text
 Generated Structure
        ↓
 Sandbox
@@ -1754,7 +1754,7 @@ This allows experimentation without granting immediate full authority.
 
 A useful lifecycle is:
 
-```text id="dxz5la"
+```text
 Generated
    ↓
 Candidate
@@ -1770,7 +1770,7 @@ Reusable
 
 Later:
 
-```text id="t7um20"
+```text
 Challenged
    ↓
 Revalidated
@@ -1788,7 +1788,7 @@ Not every generated structure needs to become permanent.
 
 Some structures are:
 
-```text id="xt9o40"
+```text
 ephemeral
 ```
 
@@ -1796,7 +1796,7 @@ They exist only for one Principle evaluation.
 
 Others are:
 
-```text id="bnq6ej"
+```text
 reusable
 ```
 
@@ -1804,7 +1804,7 @@ and should be preserved.
 
 Thus:
 
-```text id="p9l6b4"
+```text
 Runtime Structure
       ↓
 Reuse Potential?
@@ -1828,7 +1828,7 @@ Therefore it may require:
 
 Candidates include structures that are:
 
-```text id="h6ttke"
+```text
 unused
 
 superseded
@@ -1858,13 +1858,13 @@ This produces an important general principle:
 
 Therefore Principle Intelligence needs both:
 
-```text id="96kwwm"
+```text
 Growth
 ```
 
 and:
 
-```text id="b76d8j"
+```text
 Maintenance
 ```
 
@@ -1903,7 +1903,7 @@ LISP is famously dynamic and metaprogrammable.
 
 The difference lies primarily in the proposed **knowledge-growth architecture**:
 
-```text id="ah14xs"
+```text
 Experience
     ↓
 Difference
@@ -1931,7 +1931,7 @@ Homoiconicity allows code to be represented in a form similar to data.
 
 Open Structural Learning seeks something broader:
 
-```text id="pjc02n"
+```text
 Observation
 Principle
 CCC
@@ -1962,13 +1962,13 @@ This suggests a concept of **Structural Polymorphism**.
 
 A Principle may request:
 
-```text id="7bsldg"
+```text
 EvidenceOfDirectionalCost
 ```
 
 Different environments may satisfy it through:
 
-```text id="bwhz06"
+```text
 Trajectory Object
 
 Metric PIRP
@@ -1990,26 +1990,26 @@ This increases portability.
 
 A Principle can therefore distinguish:
 
-```text id="rnh26l"
+```text
 Required Structural Role
 ```
 
 from:
 
-```text id="4kyrhr"
+```text
 Specific Structure Providing It
 ```
 
 For example:
 
-```text id="22mw3e"
+```text
 Required:
 CounterEvidenceProvider
 ```
 
 could be supplied by:
 
-```text id="ijflg6"
+```text
 CEDI module
 
 PIRU
@@ -2031,7 +2031,7 @@ The analogy can be pushed further.
 
 A Principle may declare:
 
-```text id="cfhr1a"
+```text
 needs:
     ReachabilityMetric
     CounterEvidenceProvider
@@ -2040,7 +2040,7 @@ needs:
 
 At runtime:
 
-```text id="zzpgs7"
+```text
 UTN / Registry / Search
         ↓
 Find compatible structures
@@ -2066,7 +2066,7 @@ It can behave like an **open structural program**.
 
 Conceptually:
 
-```text id="izt70b"
+```text
 Principle {
     structural requirements
     evidence requirements
@@ -2088,7 +2088,7 @@ This makes Principle Intelligence both declarative and computational.
 
 Traditional:
 
-```text id="zmyn4g"
+```text
 Match Facts
     ↓
 Fire Rule
@@ -2096,7 +2096,7 @@ Fire Rule
 
 Open-LHS:
 
-```text id="45mw1w"
+```text
 Inspect Structural Need
         ↓
 Bind Existing Objects
@@ -2124,7 +2124,7 @@ toward:
 
 If the assembled structure proves reusable:
 
-```text id="1u8gbp"
+```text
 Runtime Assembly
       ↓
 Validation
@@ -2138,7 +2138,7 @@ Then runtime computation becomes long-term learning.
 
 Thus:
 
-```text id="axzyti"
+```text
 Assembly
    ↓
 Reuse
@@ -2154,7 +2154,7 @@ This is the bridge from Principle evaluation to Open Structural Learning.
 
 The complete loop becomes:
 
-```text id="5zv0xi"
+```text
 WORLD / EXPERIENCE
         │
         ▼
@@ -2210,14 +2210,14 @@ Open-LHS naturally interacts with Two-Way CCC.
 
 Forward reasoning asks:
 
-```text id="jnjybx"
+```text
 Given these structures,
 what Principle or consequence follows?
 ```
 
 Reverse reasoning asks:
 
-```text id="ktdvfg"
+```text
 Given this candidate Principle,
 what structures would need to exist
 for it to be supported or challenged?
@@ -2227,7 +2227,7 @@ The reverse question can trigger runtime generation.
 
 For example:
 
-```text id="8cehdo"
+```text
 Candidate Principle P
         ↓
 What would falsify P?
@@ -2249,7 +2249,7 @@ This is deeper than verification.
 
 A reverse query can expose missing representational objects.
 
-```text id="kpm7hd"
+```text
 RHS / Principle
       ↓
 Reverse Search
@@ -2273,13 +2273,13 @@ This is one of the strongest links between Two-Way CCC and Open Structural Learn
 
 Traditional rule evaluation is often passive:
 
-```text id="rq01b8"
+```text
 Are conditions present?
 ```
 
 Open-LHS Principle evaluation can be active:
 
-```text id="2hfb2u"
+```text
 What evidence is missing?
 
 What structure would distinguish
@@ -2300,7 +2300,7 @@ Thus Principle Intelligence becomes a form of **active structural inquiry**.
 
 Suppose two candidate Principles cannot be distinguished with current evidence.
 
-```text id="9yiz86"
+```text
 P1
 vs
 P2
@@ -2308,19 +2308,19 @@ P2
 
 The system can ask:
 
-```text id="k9a7lu"
+```text
 What observation would distinguish P1 from P2?
 ```
 
 This may generate:
 
-```text id="qk20hh"
+```text
 Experiment E
 ```
 
 The experiment becomes a runtime structure:
 
-```text id="e05yc7"
+```text
 P1 + P2
     ↓
 Discriminating Experiment E
@@ -2338,7 +2338,7 @@ Reasoning therefore generates not only internal structures but potentially new i
 
 The loop becomes:
 
-```text id="rcoklz"
+```text
 Candidate Principle
         ↓
 Missing Evidence
@@ -2364,7 +2364,7 @@ It also increases governance requirements.
 
 Open-LHS introduces freedom:
 
-```text id="rb3x9g"
+```text
 new objects
 new relations
 new Principles
@@ -2376,7 +2376,7 @@ But useful freedom requires constraints.
 
 The system remains bounded by:
 
-```text id="ubqq1f"
+```text
 physical reality
 
 available evidence
@@ -2402,7 +2402,7 @@ Thus:
 
 A fixed optimization problem assumes:
 
-```text id="h29z8u"
+```text
 State Space S
 Action Space A
 Objective J
@@ -2410,13 +2410,13 @@ Objective J
 
 Then searches:
 
-```text id="3w6xk7"
+```text
 arg best within S × A
 ```
 
 Open Structural Learning asks what happens when experience reveals that:
 
-```text id="3jtdhz"
+```text
 S is incomplete
 
 A is incomplete
@@ -2430,7 +2430,7 @@ the representation itself is inadequate
 
 Then intelligence may need to create:
 
-```text id="8ayqzq"
+```text
 S'
 A'
 J'
@@ -2450,13 +2450,13 @@ This provides a more precise interpretation of open-ended intelligence.
 
 Growth is not merely:
 
-```text id="qqtyod"
+```text
 more answers
 ```
 
 It can be:
 
-```text id="8v5vkk"
+```text
 more representational objects
 
 more structural relations
@@ -2511,7 +2511,7 @@ A newly generated structure can be useful before the system has a complete theor
 
 For example:
 
-```text id="3nkhcc"
+```text
 Observed:
 A → B works
 B → A fails
@@ -2519,7 +2519,7 @@ B → A fails
 
 The system can preserve:
 
-```text id="iv1n1m"
+```text
 DirectionalRelation(A,B)
 ```
 
@@ -2543,13 +2543,13 @@ A Principle may support multiple explanations under different perspectives.
 
 For example:
 
-```text id="d2w05x"
+```text
 Behavioral Principle
 ```
 
 may later receive:
 
-```text id="h84hmu"
+```text
 Physical Explanation
 
 Energy Explanation
@@ -2573,7 +2573,7 @@ Because different perspectives may introduce different structures, the LHS shoul
 
 For example:
 
-```text id="dqcrsp"
+```text
 Physical Perspective:
 friction
 
@@ -2597,7 +2597,7 @@ An Open-LHS Principle can combine them without pretending they are identical.
 
 A candidate Principle may therefore emerge from:
 
-```text id="e4nb7w"
+```text
 Physical Evidence
        +
 Behavioral Evidence
@@ -2619,7 +2619,7 @@ A single representation need not dominate all reasoning.
 
 Once intelligence structures can be:
 
-```text id="2mktsf"
+```text
 created
 
 identified
@@ -2639,7 +2639,7 @@ they begin to behave less like private model activations and more like cumulativ
 
 Human civilization externalized intelligence into:
 
-```text id="ajh7nq"
+```text
 language
 
 writing
@@ -2665,7 +2665,7 @@ Open-LHS provides a mechanism by which newly externalized structures can immedia
 
 A monolithic architecture tends toward:
 
-```text id="e0r9hq"
+```text
 Model
  ├── perception
  ├── memory
@@ -2677,7 +2677,7 @@ Model
 
 An open structural architecture may increasingly resemble:
 
-```text id="51xrz6"
+```text
 Model Substrate
       │
       ▼
@@ -2708,7 +2708,7 @@ Open-LHS exposes a deeper architectural question:
 
 Some intelligence is naturally distributed:
 
-```text id="3yd41m"
+```text
 perception
 
 low-level representation
@@ -2718,7 +2718,7 @@ high-dimensional prediction
 
 Other intelligence may benefit from externalization:
 
-```text id="06f4j1"
+```text
 Principles
 
 constraints
@@ -2746,7 +2746,7 @@ Open Structural Learning allows intelligence to migrate toward the representatio
 
 A candidate structure may be worth externalizing when it can preserve:
 
-```text id="tcnkpb"
+```text
 Semantics
 Identity
 Context
@@ -2757,7 +2757,7 @@ Reuse Value
 
 while becoming independently:
 
-```text id="cm3mzk"
+```text
 testable
 
 portable
@@ -2777,7 +2777,7 @@ This gives a preliminary criterion:
 
 A conceptual Principle interface may include:
 
-```text id="ng8ex6"
+```text
 Principle {
     identity
     type
@@ -2810,7 +2810,7 @@ Principle {
 
 The important additions for Open-LHS are:
 
-```text id="8nlx4h"
+```text
 lhs_requirements
 
 lhs_bound_structures
@@ -2832,7 +2832,7 @@ These make the LHS explicitly extensible.
 
 A conceptual runtime can be written as:
 
-```text id="uxd4ex"
+```text
 INPUT:
     Candidate Principle P
     Current Context C
@@ -2892,7 +2892,7 @@ This is a structural reference architecture rather than a fixed implementation.
 
 The complete architecture can be summarized as:
 
-```text id="k92bsz"
+```text
                   EXPERIENCE
                       │
                       ▼
@@ -2969,7 +2969,7 @@ The architecture can be compressed into three design axioms.
 
 Together:
 
-```text id="74ihr7"
+```text
 OPENNESS
    +
 GENERATION
@@ -2985,31 +2985,31 @@ Open Structural Learning
 
 The progression can now be stated as:
 
-```text id="ovb7kl"
+```text
 Rule Engine
     ↓
 Reason over predefined conditions
 ```
 
-```text id="w0kb2j"
+```text
 Learning System
     ↓
 Learn values and representations
 ```
 
-```text id="fgn2pq"
+```text
 Principle Intelligence
     ↓
 Extract reusable structure
 ```
 
-```text id="khdv3e"
+```text
 Open-LHS Principle Intelligence
     ↓
 Reason over extensible intelligence structures
 ```
 
-```text id="zwag7x"
+```text
 Open Structural Learning
     ↓
 Generate new structures required
@@ -3053,7 +3053,7 @@ The new structure can then be identified, typed, contextualized, validated, and 
 
 This creates a fundamentally different learning loop:
 
-```text id="idb8mf"
+```text
 Reason
   ↓
 Discover Missing Structure
@@ -3089,31 +3089,31 @@ But inside those constraints, the representational space need not remain frozen.
 
 The result is a transition from:
 
-```text id="hdmrlm"
+```text
 Closed-Space Computation
 ```
 
 toward:
 
-```text id="q8wm3l"
+```text
 Open-Space Structural Growth
 ```
 
 and from:
 
-```text id="m80iwb"
+```text
 Intelligence operating on data
 ```
 
 toward:
 
-```text id="56ws30"
+```text
 Intelligence operating on intelligence structures
 ```
 
 and ultimately:
 
-```text id="1jbp5k"
+```text
 Intelligence generating new intelligence structures
 required for its own continued growth.
 ```
@@ -3134,7 +3134,7 @@ The next document separates three related but distinct structural mechanisms:
 
 It develops the relationship:
 
-```text id="vp4m9c"
+```text
 Principle
     ↓
 Context Binding
