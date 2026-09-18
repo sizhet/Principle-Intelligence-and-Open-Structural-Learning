@@ -105,6 +105,13 @@ It is to show how sparse but structurally decisive evidence can expose a hidden 
 
 ---
 
+![Fig-003 — Sparse Evidence to Principle](../figures/Fig-003-Sparse-Evidence-to-Principle.png)
+
+**Fig-003 — Sparse Evidence to Principle.**  
+Sparse observations can contain structurally important differences. Differential extraction, residual analysis, and localization can elevate critical evidence into a Candidate Principle.
+
+---
+
 # 1. The Minimal World
 
 Consider two states:

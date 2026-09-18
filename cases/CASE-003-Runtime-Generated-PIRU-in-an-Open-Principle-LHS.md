@@ -109,6 +109,20 @@ This is the transition from a fixed reasoning vocabulary toward an extensible in
 
 ---
 
+![Fig-004 — Open-LHS and Runtime Structural Generation](../figures/Fig-004-Open-LHS-and-Runtime-Structural-Generation.png)
+
+**Fig-004 — Open-LHS and Runtime Structural Generation.**  
+An Open-LHS may bind heterogeneous existing or runtime-generated intelligence structures. When required structure is missing, the runtime may retrieve, compose, generate, unfold, or delegate its creation before continuing Principle evaluation.
+
+---
+
+![Fig-007 — Principle to PIRP/PIRU and Collective Learning](../figures/Fig-007-Principle-to-PIRP-PIRU-Collective-Learning.png)
+
+**Fig-007 — Principle to PIRP/PIRU and Collective Learning.**  
+Validated structural intelligence can be externalized as portable PIRP/PIRU structures, discovered and rebound by other compatible runtimes, challenged by new evidence, and revised through Fold Back into Collective Structural Learning.
+
+---
+
 # 1. The Starting Point
 
 Consider two intelligent agents:

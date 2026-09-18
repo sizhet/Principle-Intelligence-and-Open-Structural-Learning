@@ -97,6 +97,13 @@ answers, searches, and actions possible.
 
 ---
 
+![Fig-001 — Principle Intelligence Grand Map](../figures/Fig-001-Principle-Intelligence-Grand-Map.png)
+
+**Fig-001 — Principle Intelligence Grand Map.**  
+The overall architecture of Principle Intelligence and Open Structural Learning, from differential evidence and Principle formation to Open-LHS, portable intelligence, Collective Learning, and structural growth.
+
+---
+
 ![Fig-007 — Principle to PIRP/PIRU and Collective Learning](../figures/Fig-007-Principle-to-PIRP-PIRU-Collective-Learning.png)
 
 **Fig-007 — Principle to PIRP/PIRU and Collective Learning.**  

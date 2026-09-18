@@ -35,6 +35,13 @@ This document introduces the transition from rules to Principle Intelligence and
 
 ---
 
+![Fig-001 — Principle Intelligence Grand Map](../figures/Fig-001-Principle-Intelligence-Grand-Map.png)
+
+**Fig-001 — Principle Intelligence Grand Map.**  
+The overall architecture of Principle Intelligence and Open Structural Learning, from differential evidence and Principle formation to Open-LHS, portable intelligence, Collective Learning, and structural growth.
+
+---
+
 # 1. The Historical Problem
 
 A recurring problem in artificial intelligence can be stated simply:

@@ -104,6 +104,13 @@ The deeper implication is that intelligence may need to learn not merely values 
 
 ---
 
+![Fig-003 — Sparse Evidence to Principle](../figures/Fig-003-Sparse-Evidence-to-Principle.png)
+
+**Fig-003 — Sparse Evidence to Principle.**  
+Sparse observations can contain structurally important differences. Differential extraction, residual analysis, and localization can elevate critical evidence into a Candidate Principle.
+
+---
+
 # 1. The Minimal Environment
 
 Consider four locations:
