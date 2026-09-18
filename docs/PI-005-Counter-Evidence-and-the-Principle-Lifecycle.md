@@ -3037,35 +3037,9 @@ And its growth depends as much on its ability to preserve disagreement, contradi
 
 ## Next Document
 
-**PI-006 — Principle to Context Binding, CCC Generation, and Portable Intelligence**
+**PI-006 — Principle API and the Knowledge Root System**
 
-The next document moves from Principle lifecycle into deployment and Collective Learning.
-
-Its central path is:
-
-```text
-Principle
-    ↓
-Context Binding
-    ↓
-Metric / Policy / Trigger Binding
-    ↓
-CCC Generation
-    ↓
-PIRP / PIRU Packaging
-    ↓
-Portable Runtime Intelligence
-    ↓
-Cross-Agent Reuse
-    ↓
-Runtime Evidence
-    ↓
-Principle Lifecycle
-```
-
-The central question becomes:
-
-> **How does a Principle leave the environment in which it was discovered and become portable, context-bindable, executable, criticizable intelligence for another runtime?**
+The next document moves from Principle lifecycle into the structural interfaces through which Principles become identifiable, inspectable, bindable, revisable Knowledge Roots.
 
 ---
 
